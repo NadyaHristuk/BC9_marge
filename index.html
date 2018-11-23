@@ -2,13 +2,312 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+    <title>Waxom</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400:500|Raleway:400,600:800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800&amp;subset=latin-ext" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400&amp;subset=latin-ext" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/section-2.css">
+    <link rel="stylesheet" href="./css/sections.css"> 
+    <link rel="stylesheet" href="./css/footer.css">     
 </head>
-<body>
-    <div class="background-logos">
+<body>      
+<!--  мой код  -->
+    <div class="header-wrapper">
+        <header class="header container">
+            <div class="header-top">  
+                <h1 class="header-title">Waxom</h1> 
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-list__item"><a href="#" class="nav-list__link">Home</a></li>
+                        <li class="nav-list__item"><a href="#" class="nav-list__link">About Us</a></li>
+                        <li class="nav-list__item"><a href="#" class="nav-list__link">Portfolio</a></li>
+                        <li class="nav-list__item"><a href="#" class="nav-list__link">Features</a></li>
+                        <li class="nav-list__item"><a href="#" class="nav-list__link">Blog</a></li>
+                        <li class="nav-list__item"><a href="#" class="nav-list__link">Pricing</a></li>
+                        <li class="nav-list__item"><a href="#" class="nav-list__link">Shortcodes</a></li>
+                        <li class="nav-list__item"><a href="#" class="nav-list__link">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="user-action">
+                    <button class="button-cart"><img src="./img/icon-cart.png" alt="Cart"></button>
+                    <button class="button-search"><img src="./img/icon-search.png" alt="Search"></button>
+                </div> 
+            </div> 
+            <!-- SLIDER -->
+            <div class="header-slider"> 
+                <div class="header-slider__box"> 
+                    <!-- CONTROLLER -->
+                    <input class="control-1" id="control-1" name="slider" type="radio" checked>
+                    <input class="control-2" id="control-2" name="slider" type="radio">
+                    <input class="control-3" id="control-3" name="slider" type="radio"> 
+                    <!-- PAGINATION BLOCK -->
+                    <div class="control-box">
+                        <label for="control-1"></label>
+                        <label for="control-2"></label>
+                        <label for="control-3"></label>
+                    </div> 
+                    <!-- ARROW  -->
+                    <!-- NEXT ==> -->
+                    <div class="next control">
+                        <label for="control-1" class="pag-1"><i class="fas fa-chevron-right"></i></i></label>
+                        <label for="control-2" class="pag-2"><i class="fas fa-chevron-right"></i></i></label>
+                        <label for="control-3" class="pag-3"><i class="fas fa-chevron-right"></i></i></label>
+                    </div>
+                    <!-- PREV <== -->
+                    <div class="previous control">
+                        <label for="control-1" class="pag-1"><i class="fas fa-chevron-left"></i></label>
+                        <label for="control-2" class="pag-2"><i class="fas fa-chevron-left"></i></label>
+                        <label for="control-3" class="pag-3"><i class="fas fa-chevron-left"></i></label>
+                    </div>
+                   <!-- SLIDEBOX -->
+                    <div class="slide-box">
+                        <div class="slide-1">
+                            <p class="slide-slogan">We must finish HTML/CSS in one week</p>
+                            <h2 class="slide-title">Study more and more</h2>
+                            <p class="slide-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere tempore id impedit neque aperiam quasi saepe tenetur rem doloremque vitae.</p>
+                            <button class="slide-button">get started</button>
+                        </div> 
+                        <div class="slide-2">
+                            <p class="slide-slogan">We will be able to make magical things soon</p>
+                            <h2 class="slide-title">Learn well Think fast</h2>
+                            <p class="slide-desc">Lorem ipsum  cere tempor edit neque aperiam quasi saepe tenetur rem doloremque vitae.</p>
+                            <button class="slide-button">get started</button>
+                        </div> 
+                        <div class="slide-3">
+                            <p class="slide-slogan">Dont forget to relax</p>
+                            <h2 class="slide-title">Drink Fun Do Crazy Things</h2>
+                            <p class="slide-desc">Lorem ipsum do pore id impedit neque  si saepe tenetur rem doloremque vitae.</p>
+                            <button class="slide-button">get started</button>
+                        </div> 
+                    </div>  
+                </div>
+            </div>
+        </header>
+    </div> 
+<!-- петин код -->
+<section class="second-section">
+        <ul class="second-section__menu">
+            <li class="second-section__list-item">
+                <h3 class="one aone">Web & App Design</h3>
+                <p class="text_1">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+            </li>
+            <li class="second-section__list-item">
+                <h3 class="two atwo">Development</h3>
+                <p class="text_2">Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+            </li>
+            <li class="second-section__list-item">
+                <h3 class="three athree">Customization</h3>
+                <p class="text_3">Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+            </li>
+            <li class="second-section__list-item">
+                <h3 class="four afour">Marketing</h3>
+                <p class="text_4">Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="third-section">
+            <h2>Waxom is Realization of your Ideas.</h2>
+            <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+            <div class="third-imgwrap">
+                <img src="./img/browser-left@1X.png" alt="browser_pic" class="third-img left">
+                <img src="./img/browser-center@1X.png" alt="browser_pic" class="third-img center">
+                <img src="./img/browser-right@1X.png" alt="browser_pic" class="third-img right">
+            </div>
+    </section>
+    <section class="forth-section">
+        <div class="forth-section__wrap">
+            <h3 class="forth-title">
+                <span>Waxom</span> Multipurpose WordPress Theme
+            </h3>
+            <button type="button">PURCHASE NOW</button>
+        </div>
+    </section>
+<!-- конец Петиного кода --> 
+<!-- start Nazariy  -->
+    <div class="projects">
+        <h2 class="projects-title">Our Latest Projects.</h2>
+        <p class="projects-subtitle">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+        <ul class="projects-menu">
+            <li class="projects-item"><a href="#" class="projects-item__link">All</a></li>
+            <li class="projects-item"><a href="#" class="projects-item__link">Web Design</a></li>
+            <li class="projects-item"><a href="#" class="projects-item__link">Mobile App</a></li>
+            <li class="projects-item"><a href="#" class="projects-item__link">Illustration</a></li>
+            <li class="projects-item"><a href="#" class="projects-item__link">Photography</a></li>
+        </ul>
+        <ul class="gallery-list">
+            <li class="gallery-item">
+               <div class="icon-wrapper">
+                   <img src="./img/gallery-img1.png" alt="" class="gallery-img">
+                    <svg class="image-icons">
+                       <use href="img/symbol-defs.svg#icon-arrowOnImg"></use>
+                   </svg>
+                   <div class="icon-container">
+                       <a href="#"><svg class="gallery-icons">
+                            <use href="img/symbol-defs.svg#icon-link"></use>
+                        </svg></a>
+                        <a href="#"><svg class="gallery-icons">
+                            <use href="img/symbol-defs.svg#icon-lupa"></use>
+                        </svg></a>
+                    </div>
+                </div>
+                <div class="gallery-text">
+                    <h4 class="gallery-title">Claritas Etiam Processus</h4>
+                    <p class="gallery-subtitle">Photography, Nature</p>
+                </div>
+            </li>
+            <li class="gallery-item">
+                <div class="icon-wrapper">
+                    <img src="./img/gallery-img2.png" alt="" class="gallery-img">
+                    <svg class="image-icons">
+                       <use href="img/symbol-defs.svg#icon-arrowOnImg"></use>
+                   </svg>
+                    <div class="icon-container">
+                        <a href="#"><svg class="gallery-icons">
+                            <use href="img/symbol-defs.svg#icon-link"></use>
+                        </svg></a>
+                        <a href="#"><svg class="gallery-icons">
+                            <use href="img/symbol-defs.svg#icon-lupa"></use>
+                        </svg></a>
+                    </div>
+                </div>
+                <div class="gallery-text">
+                    <h4 class="gallery-title">Quam Nutamus Farum</h4>
+                    <p class="gallery-subtitle">Graphic Design, Mock-Up</p>
+                </div>
+            </li>
+            <li class="gallery-item">
+                <div class="icon-wrapper">
+                    <img src="./img/gallery-img3.png" alt="" class="gallery-img">
+                    <svg class="image-icons">
+                       <use href="img/symbol-defs.svg#icon-arrowOnImg"></use>
+                   </svg>
+                    <div class="icon-container">
+                        <a href="#"><svg class="gallery-icons">
+                            <use href="img/symbol-defs.svg#icon-link"></use>
+                        </svg></a>
+                        <a href="#"><svg class="gallery-icons">
+                            <use href="img/symbol-defs.svg#icon-lupa"></use>
+                        </svg></a>
+                    </div>
+                </div>
+                <div class="gallery-text">
+                    <h4 class="gallery-title">Usus Legentis Videntur</h4>
+                    <p class="gallery-subtitle">Photography, Holiday</p>
+                </div>
+            </li>
+            <li class="gallery-item">
+                <div class="icon-wrapper">
+                    <img src="./img/gallery-img4.png" alt="" class="gallery-img">
+                    <svg class="image-icons">
+                       <use href="img/symbol-defs.svg#icon-arrowOnImg"></use>
+                   </svg>
+                    <div class="icon-container">
+                        <a href="#"><svg class="gallery-icons">
+                            <use href="img/symbol-defs.svg#icon-link"></use>
+                        </svg></a>
+                        <a href="#"><svg class="gallery-icons">
+                            <use href="img/symbol-defs.svg#icon-lupa"></use>
+                        </svg></a>
+                    </div>
+                </div>
+                <div class="gallery-text">
+                    <h4 class="gallery-title">Claritas Etiam Processus</h4>
+                    <p class="gallery-subtitle">Photography, Nature</p>
+                </div>
+            </li>
+            <li class="gallery-item">
+                <div class="icon-wrapper">
+                    <img src="./img/gallery-img5.png" alt="" class="gallery-img">
+                    <svg class="image-icons">
+                       <use href="img/symbol-defs.svg#icon-arrowOnImg"></use>
+                   </svg>
+                    <div class="icon-container">
+                        <a href="#"><svg class="gallery-icons">
+                            <use href="img/symbol-defs.svg#icon-link"></use>
+                        </svg></a>
+                        <a href="#"><svg class="gallery-icons">
+                            <use href="img/symbol-defs.svg#icon-lupa"></use>
+                        </svg></a>
+                    </div>
+                </div>
+                <div class="gallery-text">
+                    <h4 class="gallery-title">Quam Nutamus Farum</h4>
+                    <p class="gallery-subtitle">Graphic Design, Mock-Up</p>
+                </div>
+            </li>
+            <li class="gallery-item">
+                <div class="icon-wrapper">
+                    <img src="./img/gallery-img6.png" alt="" class="gallery-img">
+                    <svg class="image-icons">
+                       <use href="img/symbol-defs.svg#icon-arrowOnImg"></use>
+                   </svg>
+                    <div class="icon-container">
+                        <a href="#"><svg class="gallery-icons">
+                            <use href="img/symbol-defs.svg#icon-link"></use>
+                        </svg></a>
+                        <a href="#"><svg class="gallery-icons">
+                            <use href="img/symbol-defs.svg#icon-lupa"></use>
+                        </svg></a>
+                    </div>
+                </div>
+                <div class="gallery-text">
+                    <h4 class="gallery-title">Usus Legentis Videntur</h4>
+                    <p class="gallery-subtitle">Photography, Holiday</p>
+                </div>
+            </li>
+        </ul>
+        <a href="" class="projects-button">Load more</a>
+    </div>
+<!-- end Nazariy -->
+<!-- start Andriy  -->
+ <main class="main">
+        <section class="statistics">
+            <div class="statistics-article">
+                <div class="statistics-article-column">
+                    <img src="./img/statistics-iPhone in hand.png" class="statistics-article-img" alt="iPhone in hand">
+                </div>
+                <div class="statistics-article-column">
+                    <h2 class="statistics-article-title">Excellent for Mobile Devices.</h2>
+                    <p class="statistics-article-text">Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+                    <ul class="statistics-article-ul">
+                        <li class="statistics-article-item">Nam liber tempor cum soluta nobis eleifend option;</li>
+                        <li class="statistics-article-item">Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
+                        <li class="statistics-article-item">Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+                        <li class="statistics-article-item">Investigationes demonstraverunt lectores</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="statistics-block">
+                <ul class="statistics-block-ul">
+                    <li class="statistics-block-item">
+                        <img src="./img/statistics-icon-people.png" alt="icon-people" class="statistics-block-img">
+                        <p class="statistics-text"><span class="statistics-number">3587</span><span class="statistics-name">Satisfied Clients</span></p>
+                    </li>
+                    <li class="statistics-block-item">
+                        <img src="./img/statistics-icon-cup.png" alt="icon-cup" class="statistics-block-img">
+                        <p class="statistics-text"><span class="statistics-number">207</span><span class="statistics-name">Cups of coffee</span></p>
+                    </li>
+                    <li class="statistics-block-item">
+                        <img src="./img/statistics-icon-message.png" alt="icon-message" class="statistics-block-img">
+                        <p class="statistics-text"><span class="statistics-number">2500</span><span class="statistics-name">Blog posts</span></p>
+                    </li>
+                    <li class="statistics-block-item">
+                        <img src="./img/statistics-icon-heart.png" alt="icon-heart" class="statistics-block-img">
+                        <p class="statistics-text"><span class="statistics-number">873</span><span class="statistics-name">Likes</span></p>
+                    </li>
+                    <li class="statistics-block-item">
+                        <img src="./img/statistics-icon-Dish.png" alt="" class="statistics-block-img">
+                        <p class="statistics-text"><span class="statistics-number">900</span><span class="statistics-name">We launched</span></p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+   <!-- end Andriy -->
+      <div class="background-logos">
         <div class="logos">
             <img src="./img/logo-01@1X.png" alt="logo1">
             <img src="./img/logo-02@1X.png" alt="logo2">
@@ -66,6 +365,7 @@
             </li>
         </ul>
     </div>
+    </main>   
     <footer class="footer">
         <div class="footer-wrapper">
             <ul class="footer-list">
