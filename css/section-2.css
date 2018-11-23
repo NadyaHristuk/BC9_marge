@@ -75,6 +75,7 @@
     content: "";
     display: block;
     background-color: #555555;
+    -webkit-mask-image: url("../img/pencil.svg");
     mask-image: url("../img/book.svg");
     width: 55px;
     height: 55px;
@@ -87,6 +88,7 @@
     content: "";
     display: block;
     background-color: #555555;
+    -webkit-mask-image: url("../img/pencil.svg");
     mask-image: url("../img/cog.svg");
     width: 55px;
     height: 55px;
@@ -99,6 +101,7 @@
     content: "";
     display: block;
     background-color: #555555;
+    -webkit-mask-image: url("../img/pencil.svg");
     mask-image: url("../img/paper-bag.svg");
     width: 55px;
     height: 55px;
